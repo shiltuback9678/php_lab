@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Candidate Biodata Form</title>
+    <link rel="stylesheet" href="cv.css">
+</head>
+
+<body>
+    <!-- <div class="container" style="width: 60%; margin: 0 auto; border: 1px solid #000; padding: 20px;"> -->
+    <div class="container"  align="center">
+        <h1 >Candidate Biodata Form</h1>
+        <form >
+            <table border="1" cellpadding="10" cellspacing="0" bgcolor="lightblue">
+                <tr>
+                    <td>Name:</td>
+                    <td><input type="text" name="name" ></td>
+                </tr>
+                <tr>
+                    <td>Father's Name:</td>
+                    <td><input type="text" name="father_name" ></td>
+                </tr>
+                <tr>
+                    <td>Mother's Name:</td>
+                    <td><input type="text" name="mother_name" ></td>
+                </tr>
+                <tr>
+                    <td>Date of Birth:</td>
+                    <td>
+                        <select name="dob_month" >
+                            <option value="">Month</option>
+                            <option value="1">January</option>
+                            <option value="2">February</option>
+                            <option value="3">March</option>
+                            <option value="4">April</option>
+                            <option value="5">May</option>
+                            <option value="6">June</option>
+                            <option value="7">July</option>
+                            <option value="8">August</option>
+                            <option value="9">September</option>
+                            <option value="10">October</option>
+                            <option value="11">November</option>
+                            <option value="12">December</option>
+                        </select>
+
+                        <select name="dob_day" >
+                            <option value="">Day</option>
+                            <!-- Days from 1 to 31 -->
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <!-- ... -->
+                            <option value="31">31</option>
+                        </select>
+                        
+                        
+                
+                        <select name="dob_year" >
+                            <option value="">Year</option>
+                            <!-- Years from 1900 to the current year -->
+                            <option value="1900">1900</option>
+                            <option value="1901">1901</option>
+                            <option value="1902">1902</option>
+                            <!-- ... -->
+                            <option value="2024">2024</option>
+                        </select>
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td>Gender:</td>
+                    <td>
+                        <label><input type="radio" name="gender" value="male" > Male</label>
+                        <label><input type="radio" name="gender" value="female" > Female</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Address:</td>
+                    <td><textarea name="address" rows="4" ></textarea></td>
+                </tr>
+                
+                <tr>
+                    <td>Educational Qualification:</td>
+                    <td>
+                        <table class="table-inner">
+                            <tr>
+                                <th>Exam Name</th>
+                                <th>Year of Passing</th>
+                                <th>Board/University</th>
+                                <th>Percentage</th>
+                                <th>Grade</th>
+                            </tr>
+                            <tr>
+                                <td><input type="text" name="exam_name_1" ></td>
+                                <td><input type="text" name="year_of_passing_1" ></td>
+                                <td><input type="text" name="board_university_1" ></td>
+                                <td><input type="text" name="percentage_1" ></td>
+                                <td><input type="text" name="grade_1" ></td>
+                            </tr>
+                            <tr>
+                                <td><input type="text" name="exam_name_2"></td>
+                                <td><input type="text" name="year_of_passing_2"></td>
+                                <td><input type="text" name="board_university_2"></td>
+                                <td><input type="text" name="percentage_2"></td>
+                                <td><input type="text" name="grade_2"></td>
+                            </tr>
+                            <tr>
+                                <td><input type="text" name="exam_name_3"></td>
+                                <td><input type="text" name="year_of_passing_3"></td>
+                                <td><input type="text" name="board_university_3"></td>
+                                <td><input type="text" name="percentage_3"></td>
+                                <td><input type="text" name="grade_3"></td>
+                            </tr>
+                            <!-- Add more rows as needed -->
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Passport Photo:</td>
+                    <td><input type="file" name="passport_photo" accept="image/*" ></td>
+                </tr>
+                <tr>
+                    <td>Contact No:</td>
+                    <td><input type="text" name="contact_no" ></td>
+                </tr>
+                
+                <tr>
+                    <td>Nationality:</td>
+                    <td><input type="text" name="nationality" ></td>
+                </tr>
+                <tr>
+                    <td>Email Id:</td>
+                    <td><input type="email" name="email" ></td>
+                </tr>
+                <tr>
+                    <td>Religion:</td>
+                    <td><input type="text" name="religion" ></td>
+                </tr>
+                <tr>
+
+                    <td>Marital Status:</td>
+                    <td>
+                      <select name="marital_status_2" >
+                        <option value="unselect">--Select option--</option>
+                        <option value="married">Married</option>
+                        <option value="unmarried">Unmarried</option>
+                      </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Computer Knowledge:</td>
+                    <td><textarea name="computer_knowledge" rows="4" ></textarea></td>
+                </tr>
+                <tr>
+                    <td>Working Experience:</td>
+                    <td><textarea name="working_experience" rows="4" ></textarea></td>
+                </tr>
+                <tr>
+                    <td>Declaration:</td>
+                    <td><textarea name="declaration" rows="4" ></textarea></td>
+                </tr>
+                <tr>
+                    <td>Place:</td>
+                    <td><input type="text" name="place" ></td>
+                </tr>
+                <tr>
+                    <td>Date:</td>
+                    <td><input type="text" name="text" ></td>
+                </tr>
+                <tr>
+                    <td colspan="2" style="text-align: center;">
+                    <input type="Reset" value="Reset">
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" style="text-align: center;">
+                    <input type="submit" value="Submit" >
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+</body>
+
+</html>
